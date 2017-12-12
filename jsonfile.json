@@ -1,0 +1,92 @@
+{
+    "result": {
+        "productType": 4,
+        "productName": "唐僧保信诚祯爱优选定期寿险",
+        "minAge": 18,
+        "maxAge": 50,
+        "hesitatePeriod": 15,
+        "waitingPeriod": 90,
+        "companyName": "中信保诚人寿",
+        "plans": [
+            {
+                "planId": 13,
+                "planName": "唐僧保信诚祯爱优选定期寿险",
+                "factors": [
+                    {
+                        "lable": "投保年龄",
+                        "name": "applicationAge",
+                        "type": "text",
+                        "sequence": 0,
+                        "displayName": "18-50周岁"
+                    },
+                    {
+                        "lable": "出生日期",
+                        "name": "birthday",
+                        "desc": "",
+                        "type": "date",
+                        "sequence": 0,
+                        "value": "2016-10-03",
+                        "displayName": "",
+                        "options": ""
+                    },
+                    {
+                        "lable": "性别",
+                        "name": "gender",
+                        "type": "select",
+                        "sequence": 0,
+                        "value": "M",
+                        "options": "[{\"k\":\"M\",\"v\":\"男\"},{\"k\":\"F\",\"v\":\"女\"]"
+                    },
+                    {
+                        "lable": "保额",
+                        "name": "sumInsured",
+                        "type": "select",
+                        "sequence": 0,
+                        "value": "100000",
+                        "options": "[{\"k\":300000,\"v\":\"30万元\"},{\"k\":400000,\"v\":\"40万元\"},{\"k\":500000,\"v\":\"50万元\"},{\"k\":600000,\"v\":\"60万元\"}, {\"k\":700000,\"v\":\"70万元\"},{\"k\":800000,\"v\":\"80万元\"},{\"k\":900000,\"v\":\"90万元\"},{\"k\":1000000,\"v\":\"100万元\"},]"
+                    },
+                    {
+                        "lable": "保障期限",
+                        "name": "insurancePeriod",
+                        "type": "select",
+                        "sequence": 0,
+                        "value": "20",
+                        "options": "[{\"k\":\"20Y\",\"v\":\"20年\"},{\"k\":\"30Y\",\"v\":\"30年\"},{\"k\":\"60A\",\"v\":\"至60周岁\"},{\"k\":\"70A\",\"v\":\"至70周岁\"}]"
+                    },
+                    {
+                        "lable": "缴费类型",
+                        "name": "paymentMethod",
+                        "type": "text",
+                        "sequence": 0,
+                        "value": "",
+                        "displayName": "年交",
+                        "options": ""
+                    },
+                    {
+                        "lable": "缴费期限",
+                        "name": "paymentPeriod",
+                        "type": "select",
+                        "sequence": 0,
+                        "value": "3",
+                        "options": "[{\"k\":10,\"v\":\"10年\"},{\"k\":20,\"v\":\"20年\"},{\"k\":30,\"v\":\"30年\"}]"
+                    },
+                    {
+                        "lable": "是否抽烟",
+                        "name": "isSmoking",
+                        "type": "select",
+                        "sequence": 0,
+                        "value": "0",
+                        "options": "[{\"k\":0,\"v\":\"无\"},{\"k\":1,\"v\":\"有\"]"
+                    },
+                    {
+                        "lable": "长期居住地",
+                        "name": "city",
+                        "type": "city",
+                        "sequence": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "isSuccess": true
+}
